@@ -133,9 +133,29 @@ img {
 }
 @media screen and (max-width: 800px) {
     .container {
-        margin: 100px 35px 35px;
+        margin: 100px 20px 35px;
+        gap: 20px;
+    }
+    .content {
+        padding: 20px;
     }
     .quotes {
         right: 10%;
+        height: 110px;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .about {
+        font-size: .8rem;
+    }
+    p {
+        font-size: .9rem;
+    }
+    .person {
+        gap: 20px;
     }
 }
